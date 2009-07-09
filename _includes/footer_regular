@@ -1,2 +1,25 @@
-<!-- This is a test include -->
+<!-- *** Page footer from here *** -->
+<table cellspacing='0'>
+<tr>
+
+<td id='stdfoot'>Contact: stephen(at)purebill.com</td>
+<td id='author'> Stephen Jones 2009</td>
+
+<td class="bottomdot">.</td>
+
+</tr>
+</table>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=538981; 
+var sc_partition=3; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcount
+er.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.
+com/" target="_blank"><img  src="http://c4.statcounter.com/counter.php?sc_proj
+ect=538981&amp;java=0" alt="free website hit counter" border="0"></a> </noscri
+pt>
+<!-- End of StatCounter Code -->
 
