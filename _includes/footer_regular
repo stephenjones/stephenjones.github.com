@@ -1,8 +1,13 @@
+<!-- footer inclusion -->
 <!-- *** Page footer from here *** -->
+
 <table cellspacing='0'>
 <tr>
 
 <td id='stdfoot'>Contact: stephen(at)purebill.com</td>
+
+<td>Hosted on github under '<a href="http://github.com/stephenjones">stephenjones</a>' :) </td>
+
 <td id='author'> Stephen Jones 2009</td>
 
 <td class="bottomdot">.</td>
@@ -22,4 +27,4 @@ com/" target="_blank"><img  src="http://c4.statcounter.com/counter.php?sc_proj
 ect=538981&amp;java=0" alt="free website hit counter" border="0"></a> </noscri
 pt>
 <!-- End of StatCounter Code -->
-
+<!-- footer inclusion -->
