@@ -67,6 +67,14 @@ span.head3
          color         : black;
         }
 
+
+td.singleline
+        {background    : rgb(98%,98%,98%) url(images/grey_image5.jpg) left repeat;
+         text-align    : center;
+         width         : 100%;
+         border-bottom : 1px solid rgb(100%,0%,0%);
+        }
+
 td.gaptab
         {background    : rgb(98%,98%,98%) url(images/grey_image5.jpg) left repeat;
          color         : white;
