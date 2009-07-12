@@ -1,7 +1,12 @@
-
 This arrangement creates the GitHub hosted user page at:
 
    http://stephenjones.github.com
+
+Which is then mapped to:
+
+   http://www.senoj.net via CNAME
+
+(refer to http://pages.github.com/ for details)
 
 Thanks
 
