@@ -70,10 +70,17 @@ span.head3
 
 td.singleline
         {background    : rgb(98%,98%,98%) url(images/grey_image5.jpg) left repeat;
-         font-size     : 90%;
-         line-height   : 90%;
+         font-size     : 60%;
+         line-height   : 60%;
          text-align    : center;
-         width         : 100%;
+         width         : 99%;
+         border-bottom : 1px solid rgb(100%,0%,0%);
+        }
+
+p.titlepara
+        {margin        : 8px;
+         text-align    : center;
+         width         : 99%;
          border-bottom : 1px solid rgb(100%,0%,0%);
         }
 
