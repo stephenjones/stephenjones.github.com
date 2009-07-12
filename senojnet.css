@@ -215,6 +215,7 @@ td.main-all
 
 td.main-left p, td.main-right p, td.main-all p
         {padding       : 0 0 0 0.5em;
+	     font-size     : 90%;
         }
 
 td.othertab:hover, td.othersubtab:hover, td.othersubtabwide:hover 
