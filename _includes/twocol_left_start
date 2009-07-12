@@ -3,10 +3,10 @@
 <table cellspacing='0'>
 <tr>
 
-<td width=20%>
+<td width=20% height=400px>
 <ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="reference.html">Reference Pages</a></li>
+<li class='index-list'><a href="index.html">Home</a></li>
+<li class='index-list'><a href="reference.html">Reference Pages</a></li>
 </ul>
 </td>
 <td>

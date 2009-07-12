@@ -81,6 +81,10 @@ p.titlepara
         {margin        : 8px;
         }
 
+li.index-list
+        {list-style-type:none;
+        }
+
 td.gaptab
         {background    : rgb(98%,98%,98%) url(images/grey_image5.jpg) left repeat;
          color         : white;
@@ -91,7 +95,6 @@ td.gaptab
          width         : 1%;
          border-bottom : 1px solid rgb(100%,0%,0%);
         }
-
 
 td.topdot, td.main-middot, td.bottomdot
         {background    : rgb(100%,100%,100%);
