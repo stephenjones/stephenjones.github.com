@@ -79,9 +79,6 @@ td.singleline
 
 p.titlepara
         {margin        : 8px;
-         text-align    : center;
-         width         : 99%;
-         border-bottom : 1px solid rgb(100%,0%,0%);
         }
 
 td.gaptab
