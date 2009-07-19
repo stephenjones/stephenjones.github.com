@@ -2,7 +2,7 @@
 layout: default
 ---
 
-h1(title). {{ page.title }}
+<h1 class='title'>{{ post.date | date_to_string }} - {{ post.title }}</h1>
 
 <div id="post">
 {{ content }}

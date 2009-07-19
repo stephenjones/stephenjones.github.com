@@ -27,7 +27,7 @@ title: senoj.net | Stephen Jones's Website | Home Page
 <h1 class="title">Recent Updates</h1>
 
 {% for post in site.posts %}
-  h1(title). {{ post.date | date_to_string }} - {{ post.title }}
+  <h1 class='title'>{{ post.date | date_to_string }} - {{ post.title }}</h1>
   <p>{{ post.content }}</p> 
   <p>"Permalink":{{ post.url }}</p>
 {% endfor %}
