@@ -7,5 +7,5 @@ h1(title). {{ post.title }}
 
 <p><b>09 March 2009</b></p>
 <p>Gist on including the 'ssh-rsa' prefix to prevent you receiving a "Permission denied (publickey).":http://gist.github.com/75787 error message</p>
-<p>Memory jogging page of "basic Git commands":gitcore.html where I can quickly find them
+<p>Memory jogging page of "basic Git commands":gitcore.html where I can quickly find them.
 
