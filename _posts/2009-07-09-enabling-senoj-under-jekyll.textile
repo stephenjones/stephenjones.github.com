@@ -3,6 +3,4 @@ layout: post
 title:  Enabling senoj.net using Jekyll on Github
 ---
 
-<p><b>09 July 2009</b></p>
 <p>Updating what was an initial page of Git commands and beginning the journey into what will be my future personal website hosted on Git and generated using "Jekyll":http://github.com/mojombo/jekyll/tree/master as the generation tool.</p>
-
