@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Enabling senoj.net using Jekyll on Github
+---
+
+h1(title). {{ post.title }}
+
+<p><b>09 July 2009</b></p>
+<p>Updating what was an initial page of Git commands and beginning the journey into what will be my future personal website hosted on Git and generated using '<a href ="http://github.com/mojombo/jekyll/tree/master">Jekyll</a>'.</p>
+

@@ -1,0 +1,49 @@
+---
+title: senoj.net | Stephen Jones's Website | Archive of Posts 
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+
+<title>Stephen Jones's Personal External Cache | Post Archive</title>
+
+<META name="keywords" content="senoj, posts, archive, Stephen Jones">
+
+<META name="description" content="Stephen Jones notes on things (an Eternal Cache) - Archive of Posts">
+
+{% include headmeta_regular %}
+
+</head>
+
+<body>
+<a name="top"></a>
+
+{% include header_regular %}
+
+{% include onecol_top %}
+
+{% include twocol_left_start %}
+
+<h1 class="title">The Archive</h1>
+
+<ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+<p><b>09 July 2009</b></p>
+<p>Updating what was an initial page of Git commands and beginning the journey into what will be my future personal website hosted on Git and generated using '<a href ="http://github.com/mojombo/jekyll/tree/master">Jekyll</a>'.</p>
+
+<p><b>09 March 2009</b></p>
+<p>Gist on including the 'ssh-rsa' prefix to prevent you receiving a '<a href ="http://gist.github.com/75787">Permission denied (publickey).</a>' error message</p>
+<p>Memory jogging page of <a href="gitcore.html">basic Git commands</a> where I can quickly find them
+
+{% include twocol_right_end %}
+
+{% include onecol_bottom %}
+
+{% include footer_regular %}
+
+</body>
+</html>
