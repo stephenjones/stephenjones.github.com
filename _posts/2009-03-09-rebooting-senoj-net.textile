@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Rebooting senoj.net after an absence
+base: ../../../../
 ---
 
 <p>Gist on including the 'ssh-rsa' prefix to prevent you receiving a "Permission denied (publickey).":http://gist.github.com/75787 error message</p>
-<p>Memory jogging page of "basic Git commands":gitcore.html where I can quickly find them.</p>
+<p>Memory jogging page of "basic Git commands":{{page.base}}gitcore.html where I can quickly find them.</p>
 
