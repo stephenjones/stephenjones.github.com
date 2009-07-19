@@ -24,20 +24,12 @@ title: senoj.net | Stephen Jones's Website | Home Page
 
 {% include twocol_left_start %}
 
-<h1 class="title">Recent Updates</h1>
-
 {% for post in site.posts %}
   <h1 class='title'>{{ post.date | date_to_string }} &raquo; {{ post.title }}</h1>
   <p>{{ post.content }}</p> 
   <p><a href="{{ post.url }}">[permalink]</a></p>
+  <br />
 {% endfor %}
-
-<p><b>09 July 2009</b></p>
-<p>Updating what was an initial page of Git commands and beginning the journey into what will be my future personal website hosted on Git and generated using '<a href ="http://github.com/mojombo/jekyll/tree/master">Jekyll</a>'.</p>
-
-<p><b>09 March 2009</b></p>
-<p>Gist on including the 'ssh-rsa' prefix to prevent you receiving a '<a href ="http://gist.github.com/75787">Permission denied (publickey).</a>' error message</p>
-<p>Memory jogging page of <a href="gitcore.html">basic Git commands</a> where I can quickly find them
 
 {% include twocol_right_end %}
 
