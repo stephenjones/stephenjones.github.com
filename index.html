@@ -26,6 +26,12 @@ title: senoj.net | Stephen Jones's Website | Home Page
 
 <h1 class="title">Recent Updates</h1>
 
+{% for post in site.posts %}
+  h1(title). {{ post.date | date_to_string }} - {{ post.title }}
+  <p>{{ post.source }}</p> 
+  <p>Permalink {{ post.url }}</p>
+{% endfor %}
+
 <p><b>09 July 2009</b></p>
 <p>Updating what was an initial page of Git commands and beginning the journey into what will be my future personal website hosted on Git and generated using '<a href ="http://github.com/mojombo/jekyll/tree/master">Jekyll</a>'.</p>
 
