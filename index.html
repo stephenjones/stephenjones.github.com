@@ -28,8 +28,8 @@ title: senoj.net | Stephen Jones's Website | Home Page
 
 {% for post in site.posts %}
   h1(title). {{ post.date | date_to_string }} - {{ post.title }}
-  <p>{{ post.source }}</p> 
-  <p>Permalink {{ post.url }}</p>
+  <p>{{ post.content }}</p> 
+  <p>"Permalink":{{ post.url }}</p>
 {% endfor %}
 
 <p><b>09 July 2009</b></p>
