@@ -1,6 +1,28 @@
 ---
-layout: default
+title: senoj.net | Stephen Jones's Website | {{ page.title }}
 ---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+
+<title>Stephen Jones's Personal External Cache | {{ page.title }}</title>
+
+<META name="keywords" content="Stephen Jones, posts">
+
+<META name="description" content="Stephen Jones notes on things (an Eternal Cache)">
+
+{% include headmeta_post %}
+
+</head>
+
+<body>
+<a name="top"></a>
+
+{% include header_post %}
+
+{% include onecol_top %}
+
+{% include twocol_left_start %}
 
 <h1 class='title'>{{ page.date | date_to_string }} &raquo; {{ page.title }}</h1>
 
@@ -8,6 +30,13 @@ layout: default
 {{ content }}
 </div>
 
-<a href="{{ page.url }}">[permalink]</a>
+<p><a href="{{ page.url }}">[permalink]</a></p>
 
-<p>The formatting of posts is a work in progress...</p>
+{% include twocol_right_end %}
+
+{% include onecol_bottom %}
+
+{% include footer_regular %}
+
+</body>
+</html>
