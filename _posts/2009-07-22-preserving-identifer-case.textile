@@ -1,0 +1,15 @@
+---
+layout: post
+title:  Managing the 'case' of alphanumeric keys and identifiers
+---
+
+<p>Cross posted from "purebill.com":http://www.purebill.com</p>
+
+<p>Key alphanumeric identifiers such as email addresses, user names and hardware references (e.g. MAC addresses) are often used as indexes in database tables, and can have problems when their case, that is uppercase, lowercase or mixed case, impacts the application's retrieval of or access to the identifiers.</p>
+
+* "Managing the 'case' of alphanumeric keys and identifiers":http://www.purebill.com/column/pb090720-preserving-case-identifiers.html
+* Situation
+* Problems
+* Timing
+* Searching
+* Performance Impacts
