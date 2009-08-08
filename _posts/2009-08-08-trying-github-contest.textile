@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Attempting the GitHub Contest 2009
+base: ../../../../
+---
+
+<p>"Github":http://www.github.com has posted a competition to generate an open sourced recommendation algorithm that can be used by anyone who needs such a thing, and specifically one that they can use themselves. The "competition":http://contest.github.com is an attempt to help 'solve' the problem in public, so that it doesn't need to be resolved by each new group that needs such an algorithm... </p>
+
+<p>It looks like the recently completed Netflix Prize has warmed many people to he problem domain (recommendation), and a few players have actively and quickly reached recommendation scores of just under 50% accuracy.</p>
+
+<p>"My attempts":http://contest.github.com/p/stephenjones/contest2009-sj are more modest and I am using it as an excuse to code some ruby (in my unskilled style...), and learn a little about recommendation and 'prediction'.</p>
+
