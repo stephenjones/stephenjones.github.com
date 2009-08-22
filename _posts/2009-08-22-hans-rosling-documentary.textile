@@ -1,0 +1,16 @@
+---
+layout: post
+title:  Swedish documentary on Professor Hans Rosling (International Health)
+base: ../../../../
+---
+
+<p> Enjoyed a "swedish documentary on Hans Rosling":http://svtplay.se/v/1654393/dokumentar/rosling_s_world (~1 hour with english subtitles), the swedish professor of International Health detailing in his own words how he came to take up his line of interest. It details his parental history, and his earlier experiences outside Sweden where he saw the reality of poorer countries, not just what he perceived to be the case.</p>
+
+<p>It also points out the positive impact that his "TED":http://www.ted.com/search?q=hans+rosling&x=0&y=0 presentations made, and continue to make. This includes the idea that change is occurring for the good as evidenced by the data across time. His first two lectures at TED were:</p>
+
+<ul>
+<li>"Introduction to Global Health":http://www.ted.com/talks/lang/eng/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html (2006)</li>
+<li>"Movement of countries out of poverty":http://www.ted.com/talks/lang/eng/hans_rosling_reveals_new_insights_on_poverty.html (2007)</li>
+</ul>
+
+<p>Further details about "Hans Rosling":http://en.wikipedia.org/wiki/Hans_Rosling can be found in his Wikipedia article, or his "speaker profile from TED":http://www.ted.com/speakers/hans_rosling.html.</p>
