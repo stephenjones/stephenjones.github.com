@@ -25,13 +25,17 @@ base: /
 
 {% include twocol_left_start %}
 
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
   <h1 class='title'>{{ post.date | date_to_string }} &raquo; {{ post.title }}</h1>
   <p>{{ post.content }}</p> 
-  <p><a href="{{ post.url }}">[permalink]</a></p>
+  <p>[<a href="{{ post.url }}">permalink</a>]</p>
   <br />
 {% endfor %}
 
+<p>Please refer to '<a href="archives.html">The Archives</a>' for older posts...</p>
+
+<p>...Back to the <a href="#top">top</a></p>
+	
 {% include twocol_right_end %}
 
 {% include onecol_bottom %}
