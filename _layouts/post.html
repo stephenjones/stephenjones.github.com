@@ -30,7 +30,17 @@ trial: dummy data
 {{ content }}
 </div>
 
-<p><a href="{{ page.url }}">[permalink]</a></p>
+<p>[<a href="{{ page.url }}">permalink</a>]</p>
+
+<h1 class="title">Recent Posts</h1>
+
+<div id="related">
+<ul>
+    {% for post in site.posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+</div>
 
 {% include twocol_right_end %}
 
