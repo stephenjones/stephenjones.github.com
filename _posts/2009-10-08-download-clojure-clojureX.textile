@@ -4,8 +4,8 @@ title:  Installing clojure on a Mac OS X using ClojureX - Easy
 base: ../../../../
 ---
 
-<p>Followed the instructions on "Michael Kohl":http://github.com/citizen428's implementation of "ClojureX":http://github.com/citizen428/ClojureX  to install "clojure":http://www.clojure.org and it was as easy as it could possibly be. An easy six steps later and I had a clojure prompt. Having downloaded the classic "ants":http://clojure.googlegroups.com/web/ants.clj program some time ago, managed to get it going with minimal fuss. :)</p>
+<p>Followed the instructions by "Michael Kohl":http://github.com/citizen428 for his implementation of "ClojureX":http://github.com/citizen428/ClojureX  and installed "clojure":http://www.clojure.org - it was as easy as it could possibly be. An easy six steps later and I had a clojure prompt. Having downloaded the classic "ants":http://clojure.googlegroups.com/web/ants.clj program some time ago, managed to get it going with minimal fuss. :)</p>
 
-<p>The ants program was stepped through in "Rich Hickey's talk on concurrency":http://blip.tv/file/812787 where he stepped through key features of clojure, a number of the key decisions he made, and then demonstrated clojure's capabilities and 'ease' of multi-threading using the ants demonstration. Refer also to the "walkthrough slides explaining clojure and the ants demo":http://clojure.googlegroups.com/web/ClojureConcurrencyTalk.pdf.</p>
+<p>The ants program was stepped through in "Rich Hickey's talk on concurrency":http://blip.tv/file/812787 in which he stepped through key features of clojure, a number of the key decisions he made, and then demonstrated clojure's capabilities and 'ease' of multi-threading using the ants demonstration. Refer also to the "walkthrough slides explaining clojure and the ants demo":http://clojure.googlegroups.com/web/ClojureConcurrencyTalk.pdf.</p>
 
 <p>Next step: "Programming Clojure":http://www.pragprog.com/titles/shcloj/programming-clojure by Stuart Halloway.</p>
