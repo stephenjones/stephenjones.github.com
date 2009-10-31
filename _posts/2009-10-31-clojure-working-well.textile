@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Clojure is working well on OS X
+base: ../../../../
+---
+
+<p>Finished reading Stuart Halloway's "Programming Clojure":http://www.pragprog.com/titles/shcloj/programming-clojure book, which I enjoyed. Some years ago I read through (most of) "Practical Common Lisp":http://gigamonkeys.com/book/ by Peter Seibel, and so the Lisp 'style' in the book was familiar. (Of course I was reading it as an introduction to "Clojure":http://clojure.org/.) </p>
+
+<p>I am now working through various "Project Euler":http://projecteuler.net/index.php?section=problems problems to exercise my new Clojure knowledge from the book and build some basic skills (and comparing the solutions to how I addressed them in Ruby).</p>
+
+<p>I am currently reading a book by "Michael Nygard":http://www.michaelnygard.com/ called "Release It!: Design and Deploy Production-Ready Software":http://www.pragprog.com/titles/mnee/release-it about the operational, deployment and maintenance aspects of the software lifecycle. From my own experience, the knowledge I gained from supporting an 'enterprise' 24x7 production environment (my area ran overnight) continues to feed directly into how I design new applications/systems today, and what I require of others who deliver solutions to me...</p>
