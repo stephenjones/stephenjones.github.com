@@ -9,3 +9,5 @@ base: ../../../../
 <p>The ants program was stepped through in "Rich Hickey's talk on concurrency":http://blip.tv/file/812787 in which he stepped through key features of clojure, a number of the key decisions he made, and then demonstrated clojure's capabilities and 'ease' of multi-threading using the ants demonstration. Refer also to the "walkthrough slides explaining clojure and the ants demo":http://clojure.googlegroups.com/web/ClojureConcurrencyTalk.pdf.</p>
 
 <p>Next step: "Programming Clojure":http://www.pragprog.com/titles/shcloj/programming-clojure by Stuart Halloway.</p>
+
+<p><i>Update (24-Oct-2009)</i> Finished the book and enjoyed it</p>
