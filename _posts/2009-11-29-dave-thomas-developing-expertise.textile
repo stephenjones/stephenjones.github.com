@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Developing Expertise - Dave Thomas presentation
+base: ../../../../
+---
+
+<p>I was in a conversation recently with peers on the topic of 'expertise' (and the lack of it...), specifically in IT work, and I was reminded of a presentation I had seen online. After a little searching (I had forgotten who presented it and where I had seen it), I rediscovered Dave Thomas's presentation.</p>
+
+<p>When I first saw the presentation I was interested in how a person (or an already formed group of people) with greater expertise in a knowledge domain or software product could introduce new, less experienced people without assuming too much, and allowing the new folk to rise up the learning / development curve.</p>
+
+<p>The presentation is by "Dave Thomas":http://pragdave.pragprog.com/ (of "Pragmatic Programmer":http://www.pragprog.com/ fame), and is titled "Developing Expertise: Herding Racehorses, Racing Sheep":http://www.infoq.com/presentations/Developing-Expertise-Dave-Thomas - a brief summary of the presentation was written up by "Raj Rao":http://blog.aggregatedintelligence.com/2009/05/managing-teams-by-developing-expertise.html who also linked to "Dave Thomas's' original blog post":http://pragdave.pragprog.com/pragdave/2004/04/end_of_the_know.html on the topic.</p>
+
+<p>I recommend the presentation as something to think about (brain food) both for your own development on new and existing areas of knowledge, but also as something to consider when developing those who work around you.</p>
