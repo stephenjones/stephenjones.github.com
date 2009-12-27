@@ -1,0 +1,9 @@
+---
+layout: post
+title:  Added generated RSS 2.0 feed using textile formatting
+base: ../../../../
+---
+
+<p>Added an RSS feed to the website based upon the <a href="http://github.com/mojombo/mojombo.github.com">jekyll</a> source that generates <a href="http://tom.preston-werner.com/">Tom Preston-Werner's website</a>. Whilst Tom's website uses an Atom formatted RSS feed, I used the same field population but into the RSS 2.0 fields. </p>
+
+<p>This required adding the RSS link to the 'head' section of the layout html templates (I have two), and adding an XML textile formatted file that generated RSS entries for each post. I limited the number of posts included in the RSS feed to the last eight - this will avoid an increasingly large file being generated for retrieval.</p>
