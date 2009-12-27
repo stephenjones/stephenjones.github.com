@@ -1,27 +1,48 @@
 ---
 layout: nil
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Tom Preston-Werner</title>
- <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
- <link href="http://tom.preston-werner.com/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
- <author>
-   <name>Tom Preston-Werner</name>
-   <email>tom@mojombo.com</email>
- </author>
+<?xml version="1.0"?>
+<rss version="2.0">
+   <channel>
+
+      <title>senoj.net</title>
+      <link>http://www.senoj.net/</link>
+      <description>Stephen Jones's External Cache</description>
+      <language>en</language>
+      <copyright>Copyright 2009-2010, Stephen Jones</copyright>
+      <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+      <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+      <docs>http://backend.userland.com/rss</docs>
+      <category>Personal</category>
+      <ttl>1440</ttl>
+
+   <image>
+	<title>senoj.net</title> 
+	<url>http://www.senoj.net/images/senojsqr2.gif</url> 
+	<link>http://www.senoj.net/</link> 
+	<width>35</width> 
+	<height>41</height> 
+	<description>Stephen Jones's External Cache</description> 
+   </image>
 
  {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="http://tom.preston-werner.com{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tom.preston-werner.com{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
- 
-</feed>
+
+      <item>
+        <title>{{ post.title }}</title>
+        <description>
+<![CDATA[
+
+{{ post.content | xml_escape }}
+
+]]>
+         </description>
+         <link>http://www.senoj.net{{ post.id }}</link>
+         <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+         <source url="http://www.senoj.net/senoj.xml">senoj.net - Stephen Jones's External Cache</source>
+         <guid>http://www.senoj.net{{ post.id }}</guid>
+      </item>   
+
+	 {% endfor %}
+
+   </channel>
+</rss>
