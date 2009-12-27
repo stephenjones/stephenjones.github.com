@@ -25,7 +25,7 @@ layout: nil
 	<description>Stephen Jones's External Cache</description> 
    </image>
 
- {% for post in site.posts %}
+ {% for post in site.posts limit:8 %}
 
       <item>
         <title>{{ post.title }}</title>
