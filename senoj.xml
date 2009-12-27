@@ -32,14 +32,14 @@ layout: nil
         <description>
 <![CDATA[
 
-{{ post.content | xml_escape }}
+{{ post.content }}
 
 ]]>
          </description>
-         <link>http://www.senoj.net{{ post.id }}</link>
+         <link>{{ post.url }}</link>
          <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
          <source url="http://www.senoj.net/senoj.xml">senoj.net - Stephen Jones's External Cache</source>
-         <guid>http://www.senoj.net{{ post.id }}</guid>
+         <guid>{{ post.url }}</guid>
       </item>   
 
 	 {% endfor %}
