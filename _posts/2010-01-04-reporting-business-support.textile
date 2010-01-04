@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Reporting / Business Support
+---
+
+<p>Cross posted from "purebill.com":http://www.purebill.com</p>
+ 
+<p>Reports are point-in-time historical views of the billing databases. They can describe transactions performed, highlight important customer statuses, show the results of business analysis, list transactions exhaustively, or highlight specific activities (whether good or bad) that require further investigation.</p>
+
+* "Reporting / Business Support":http://www.purebill.com/billing/functions/reporting-business-support-16a.html
+* Auditing Reports
+* Exception Reports
+* Adhoc Reports
