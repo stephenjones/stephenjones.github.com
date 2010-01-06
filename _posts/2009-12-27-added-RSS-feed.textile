@@ -8,4 +8,4 @@ base: ../../../../
 
 <p>This required adding the RSS link to the 'head' section of the layout html templates (I have two), and adding an XML textile formatted file that generated RSS entries for each post. I limited the number of posts included in the RSS feed to the last eight - this will avoid an increasingly large file being generated for retrieval.</p>
 
-<p>Updated (06-Jan-2010): To demonstrate how to setup different formats of RSS feeds, I have linked to the "Atom feed from Tom Preston-Werner's site":http://github.com/mojombo/mojombo.github.com/blob/master/atom.xml and the "RSS 2.0 feed from my site":http://github.com/stephenjones/stephenjones.github.com/blob/master/senoj.xml .
+<p><i>Updated (06-Jan-2010)</i>: To demonstrate how to setup different formats of RSS feeds, I have linked to the "Atom feed from Tom Preston-Werner's site":http://github.com/mojombo/mojombo.github.com/blob/master/atom.xml and the "RSS 2.0 feed from my site":http://github.com/stephenjones/stephenjones.github.com/blob/master/senoj.xml .</p>
