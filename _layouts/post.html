@@ -38,7 +38,7 @@ trial: dummy data
 
 <div id="related">
 <ul>
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

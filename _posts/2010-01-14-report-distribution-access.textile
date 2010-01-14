@@ -1,0 +1,16 @@
+---
+layout: post
+title:  Report Distribution and Access | purebill
+---
+
+<p>Cross posted from "purebill.com":http://www.purebill.com</p>
+
+<p>Independent of their content, reports have common issues relating to their size, timeliness, distribution, retention and access. Each of these issues only grows over time since reports are seldom stopped, new problems will be identified, customer numbers (hopefully) increase, and products and services proliferate. Billers must find reporting solutions appropriate to their size, industry and cost structure that can support and grow with their needs.</p>
+
+* "Report Distribution and Access":http://www.purebill.com/billing/functions/report-distribution-access-16b.html
+* Size
+* Timeliness
+* Distribution
+* Access
+* Data Warehouses
+
