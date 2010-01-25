@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bronwen Jones - resin bangles | whizzbangles
+title:  Bronwen Jones - resin bangles | whizzbangle
 base: ../../../../
 ---
 
