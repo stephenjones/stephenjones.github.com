@@ -37,4 +37,4 @@ The connection with the server was reset.<br />
 
 <p>The same change enables FTP on both Vista and Windows 7, and works for both anonymous sites and those requiring a username/password.</p>
 
-<p><i>Note</i>: This was added on "SuperUser":http://superuser.com/questions/106508/using-gui-ftp-on-win7-and-vista-without-additional-software as a question with a resolution so that others might not go through the same frustrations and web searching that my work colleagues and I did.</p>~
+<p><i>Note</i>: This was added on "SuperUser":http://superuser.com/questions/106508/using-gui-ftp-on-win7-and-vista-without-additional-software as a question with a resolution so that others might not go through the same frustrations and web searching that my work colleagues and I did.</p>
