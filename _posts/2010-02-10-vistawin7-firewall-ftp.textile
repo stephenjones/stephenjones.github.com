@@ -6,13 +6,15 @@ base: ../../../../
 
 <p><b>"FTP through Vista and Windows 7 firewall - don't use Passive mode":http://superuser.com/questions/106508/using-gui-ftp-on-win7-and-vista-without-additional-software </b></p>
 
-<p><b>Goal:</b></p>
+<p><b>The Goal</b></p>
 
 The goal was to provide prospective customers (at work) with a 'no-software' method of accessing password protect ftp locations from Windows 7 and Vista, in the manner an existing approach was employed for WinXP.</p>
 
 <p>A 'no software' method in this case meant one that did not rely on installing additional software (e.g. "FileZilla":http://filezilla-project.org/, "WinSCP":http://winscp.net/eng/index.php).</p>
 
 <p> The working WinXP solution that worked involved pasting "ftp://username:password@server.com" into the address bar of a Windows Explorer window. The remote ftp site's files / directory structure would become available, and could be copied to / from easily (in the style of local file copy / paste) by a 'less technical' user.</p>
+
+<p><b>The Problem</b></p>
 
 <p>Window 7 / Vista did not work when a similar exercise was performed, and instead produced an error message.</p>
 
