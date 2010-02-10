@@ -1,0 +1,38 @@
+---
+layout: post
+title:  FTP through Vista and Windows 7 firewall - don't use Passive mode
+base: ../../../../
+---
+
+<p><b>"FTP through Vista and Windows 7 firewall - don't use Passive mode":http://superuser.com/questions/106508/using-gui-ftp-on-win7-and-vista-without-additional-software </b></p>
+
+<p><b>Goal:</b></p>
+
+The goal was to provide prospective customers (at work) with a 'no-software' method of accessing password protect ftp locations from Windows 7 and Vista, in the manner an existing approach was employed for WinXP.</p>
+
+<p>A 'no software' method in this case meant one that did not rely on installing additional software (e.g. "FileZilla":http://filezilla-project.org/, "WinSCP":http://winscp.net/eng/index.php).</p>
+
+<p> The working WinXP solution that worked involved pasting "ftp://username:password@server.com" into the address bar of a Windows Explorer window. The remote ftp site's files / directory structure would become available, and could be copied to / from easily (in the style of local file copy / paste) by a 'less technical' user.</p>
+
+<p>Window 7 / Vista did not work when a similar exercise was performed, and instead produced an error message.</p>
+
+<blockquote>
+<p>An error occurred opening that folder on the FTP server. Make sure you have permission to access that folder. <br /><br />
+Details: <br />
+The connection with the server was reset.<br />
+</blockquote>
+
+<p>This was despite:</p>
+
+* The same username/password/server typed from the (DOS) command line achieving access to the server.
+* Under 'Control Panel' / 'Internet options' / 'Advanced' tab - the boxes for 'Enable FTP folder view' and 'Use Passive FTP' were ticked (enabled)
+
+<p><b>The Solution</b></p>
+
+<p>Contrary to what you would expect, if you untick 'Use Passive FTP' (i.e. disabled) (under 'Control Panel' / 'Internet options' / 'Advanced' tab), then, after a couple of 'Approval' dialog boxes, the target FTP site will be accessible from both Internet Explorer and Windows Explorer.</p>
+
+<p>Rules are auto-added to the Windows Firewall - these rules appear to be the same as those added manually (except they worked where manually entered rules did not...).</p>
+
+<p>The same change enables FTP on both Vista and Windows 7, and works for both anonymous sites and those requiring a username/password.</p>
+
+<p><i>Note</i>: This was added on "SuperUser":http://superuser.com/questions/106508/using-gui-ftp-on-win7-and-vista-without-additional-software as a question with a resolution so that others might not go through the same frustrations and web searching that my work colleagues and I did.</p>~
