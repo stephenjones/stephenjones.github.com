@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Learning maths, chemistry and more with online video tutoring - Salman Kahn - kahnacademy.org
+base: ../../../../
+---
+
+<p><b>"Salman Kahn - online tutoring from the kahnacademy.org":http://khanacademy.org/ </b></p>
+
+Came across the Kahn Acadamey for the second time - I now know I had heard it on "NPR's Technology":http://www.npr.org/rss/podcast/podcast_detail.php?siteId=4819382 "podcast":http://www.youtube.com/watch?v=po3DAsr6mDE - I heard discussion about it for the second time on the "IT Conversations podcast":http://itc.conversationsnetwork.org/shows/detail4386.html. 
+
+I tried it out - the exercise lessons start out easy (for a University graduate...) - after getting a run of ten correct answers additional 'lessons' are suggested that stretch the student with additional knowledge. There is a (YouTube) video for each lesson that explains the knowledge required to complete the exercise problems.
+
+The videos are available on the "Kahn Academy":http://www.youtube.com/user/khanacademy channel on YouTube, but are probably of more use when watched in a lesson context.
+
+There are a wide range of topics (not just maths) listed on "Kahn Academy":http://khanacademy.org/ website. 
+
+I will be highlighting this to friends with kids - with an explanation of some American terms used. e.g. 'penny' meaning one cent, 'dime' meaning ten cents.
