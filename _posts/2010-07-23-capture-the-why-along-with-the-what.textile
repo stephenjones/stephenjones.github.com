@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Capture the why along withe what... 
+base: ../../../../
+---
+
+When discussing / thinking about / reviewing an area of code you often think of 'bright ideas' to include 'next time' you make a change in the same area. i.e. whilst performing a future change, just implement the bright idea 'whilst you are there'...
+
+By building a habit of recording both the 'what' and the 'why' you can evaluate whether the idea is still 'bright' at any point in the future.
+
+It is so frustrating to be updating code, see a change note you've written to yourself for 'next time', but be unable to see why it was written originally or was once appropriate.
