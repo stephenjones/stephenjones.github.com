@@ -1,0 +1,56 @@
+---
+layout: post
+title:  Requirements for a job scheduler in multi-core environments
+base: ../../../../
+---
+
+<p><b>In support of batch processing...</b></p>
+
+The increasing availability of multi-core, high-memory environments brings complex (batch) processing to historically smaller computing platforms. Multi-core laptops and off-the shelf servers have become suitable for multi-step batch processing, and the infrastructure to support it must follow it.
+
+Focusing on batch rather than transactional (OLTP) processing, bulk workloads often require a series of steps performed to achieve a nominated goal. To reduce the elapsed processing time, and to take advantage of multi-core environments, steps may be performed concurrently with interdependent jobs.
+
+Lights-out operations can initiate jobs using a time-based scheduler such as "Cron":https://secure.wikimedia.org/wikipedia/en/wiki/Cron or run additional software such as a "job scheduler":https://secure.wikimedia.org/wikipedia/en/wiki/Job_scheduler to manage the initiation of jobs and their interdependencies.
+
+<p><b>Driving batch: 'Cron' versus 'Job Scheduler'</b></p>
+
+Batch processing initiated by 'Cron' on a time-driven basis will have limited knowledge of the surrounding job status' unless artificial structures are constructed (such as signal files) to manage the job inter-dependencies.
+
+Batch processing initiated by a job scheduler can be driven in a richer manner, and rely on the job scheduler to provide the mechanisms for job-interdependencies.
+
+<p><i><b>Dependency-based processing</b></i></p>
+
+* Only start after (or before) a nominated time
+* Start after a prior job in the current (or another) schedule has finished successfully
+* Start once multiple upstream jobs have finished successfully
+* Run the job flow on specified days of the week (or month)
+* Serialise repeated executions of the same job flow
+* Place holds on jobs in specific schedules
+* Constrain processing based upon a resource - e.g. run no more than 5 Type A jobs at once (managing concurrency), run only one Type B job (single streaming)
+* Constrained exclusivity: Don't run job A if Job B is running
+
+<p><i><b>Repetition behaviour</b></i></p>
+
+* Run job flow once per daily/weekly load of the job flow
+* Run job flow each time a file arrives from upstream
+* Run job flow each hour
+
+<p><i><b>Job types</b></i></p>
+
+* Invoke an application's processing directly
+* Invoke a shell script
+* Run a 'do nothing' job (used to support dependency behaviour)
+
+<p><i><b>Job flow status</b></i></p>
+
+* What job flows are currently loaded?
+* Which jobs are running / delayed / in error?
+* What dependencies is this job waiting on?
+* Which jobs flows are finished?
+
+<p><i><b>Actions</b></i></p>
+
+* If a job fails, send an alarm, email or otherwise notify specific users
+* If a job fails with specific return code, perform an action such as run a script
+* If a job has not started by a specific time, send an alarm, email or otherwise notify specific users
+* If a job succeeds, send an alarm, email or otherwise notify specific users
