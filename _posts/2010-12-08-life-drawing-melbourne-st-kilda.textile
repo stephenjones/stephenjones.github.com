@@ -12,5 +12,5 @@ base: ../../../../
    * Single long pose, usually the same model over two weeks - suitable for drawing and painting
    * Located at the rear of <a href="http://www.lindenarts.org/">Linden Gallery</a>, 28 Acland St. St. Kilda -  <a href="http://maps.google.com.au/maps?q=26+Acland+Street,+St+Kilda+3182&um=1&ie=UTF-8&hq=&hnear=26+Acland+St,+St+Kilda+VIC+3182&gl=au&ei=0W7_TMriAY2ivQOdr4WsBw&sa=X&oi=geocode_result&ct=image&resnum=1&ved=0CBYQ8gEwAA">Linden's location in Google Maps</a>
    * Inquiries/Contact - Simon Gay: 9531 5657, Phil Kreveld: 0418 530 781
-   * Update (28-July-2012): Now with a website at <a href="lifedrawingandpainting.com">Life Drawing and Painting in St. Kilda Melbourne</a> 
+   * Update (28-July-2012): Now with a website at <a href="http://lifedrawingandpainting.com">Life Drawing and Painting in St. Kilda Melbourne</a> 
 
