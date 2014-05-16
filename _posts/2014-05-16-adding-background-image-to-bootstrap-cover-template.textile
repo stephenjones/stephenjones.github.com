@@ -38,7 +38,7 @@ base: ../../../../
 
 <p><i>Note 2</i>: I also adjusted the image's opacity in using the suggestion found at this <a href="http://www.w3schools.com/css/css_image_transparency.asp">W3Schools</a> page. This allowed the text to dominate over the background image - the essence of the image was available, but not the details.</p>
 
-<p>With this background image solution working (for the image), I now had a problem showing the text on the page. I could show the text, or image, but not both. I solved this by including the following:</p>
+<p>With this background image solution working (for the image), I now had a problem showing the text on the page. I could show the text, or image, but not both. I solved this by including the 'content' class position statement as per the following:</p>
 
 <p><b><i>CSS</i></b></p>
 
@@ -67,7 +67,9 @@ base: ../../../../
 
 </blockquote>
 
-<p>The CSS above includes the classes: 'show' to put back the underlines for links, and 'leftie' to override the template's centering of texti (used on my about page). </p> 
+<p>...which allowed both the image and text to be displayed.</p>
+
+<p>The CSS above includes the additional classes: 'show' to put back the underlines for links, and 'leftie' to override the template's centering of text (only currently used on my about page). </p> 
 
 <p><i><b>Changes to cover.css</b></i>: In addition to the tweaks listed above, I also changed the standard CSS that comes with the Cover template in the following ways:</p> 
 
