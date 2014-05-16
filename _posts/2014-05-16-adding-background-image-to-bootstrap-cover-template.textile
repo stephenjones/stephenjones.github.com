@@ -1,0 +1,77 @@
+---
+layout: post
+title:  How I Added a Background Image to the Bootstrap 'Cover' Template
+base: ../../../../
+---
+
+<h1>How I added a background image (img) to my website's Bootstrap 'Cover' page</h1>
+
+<p>I wanted to setup a basic landing page for my <a href="">Network Billing Training Course</a> using <a href="">Bootstrap's 'Cover' Template</>. The template was straightforward, except for how to add a background image. The comment text says '' but doesn't suggest how.</p>
+
+<p>The key hints that I used were found at <a href="http://css-tricks.com/perfect-full-page-background-image/">CSS Tricks</a> where I used the 'Option 2' suggestions. Using the suggested html format, my specific css entries are: </p>
+
+<blockquote>
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  opacity: 0.7;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: -1;
+}
+
+</blockquote>
+
+<p><i>Note 1</i>: I included the z-index reference when I was trying to make the text appear (see below), though I am not sure if it is strictly necessary...</p>
+
+<p><i>Note 2</i>: I also adjusted the image's opacity in using the suggestion found at this <a href="http://www.w3schools.com/css/css_image_transparency.asp">W3Schools</a> page. This allowed the text to dominate over the background image - the essence of the image was available, but not the details.</p>
+
+<p>With this background image solution working (for the image), I now had a problem showing the text on the page. I could show the text, or image, but not both. I solved this by including the following:</p>
+
+<p><b><i>CSS</i></b></p>
+
+<blockquote>
+
+<style type="text/css">
+    .leftie {
+      text-align: left;
+    }
+    .show {
+      text-decoration: underline;
+      display: inline !important;
+    }
+    .content {
+      position: relative;
+    }
+    </style>
+
+</blockquote>
+
+<p><b><i>HTML</i></b></p>
+
+<blockquote>
+
+    <div class="site-wrapper content">
+
+</blockquote>
+
+<p>The CSS above includes the classes: 'show' to put back the underlines for links, and 'leftie' to override the template's centering of texti (used on my about page). </p> 
+
+<p><i><b>Changes to cover.css</b></i>: In addition to the tweaks listed above, I also changed the standard CSS that comes with the Cover template in the following ways:</p> 
+
+   * Changed the 'position' of the footer and header to be 'relative' to the top and bottom, rather than 'fixed' 
+   * Changed the text colour from white (#fff) to a darker colour (#222) so that it could beread against my picture which included large 'white areas'.
+
+<p>Hope this helps someone trying to solve the same problem. - Stephen</p>
