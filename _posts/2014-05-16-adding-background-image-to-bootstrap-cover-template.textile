@@ -72,6 +72,6 @@ base: ../../../../
 <p><i><b>Changes to cover.css</b></i>: In addition to the tweaks listed above, I also changed the standard CSS that comes with the Cover template in the following ways:</p> 
 
    * Changed the 'position' of the footer and header to be 'relative' to the top and bottom, rather than 'fixed' 
-   * Changed the text colour from white (#fff) to a darker colour (#222) so that it could beread against my picture which included large 'white areas'.
+   * Changed the text colour from white (#fff) to a darker colour (#222) so that it could be read against my picture which included large 'white areas'.
 
 <p>Hope this helps someone trying to solve the same problem. - Stephen</p>
