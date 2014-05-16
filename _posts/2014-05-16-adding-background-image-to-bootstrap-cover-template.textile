@@ -44,7 +44,6 @@ base: ../../../../
 
 <blockquote>
 
-<style type="text/css">
     .leftie {
       text-align: left;
     }
@@ -55,7 +54,6 @@ base: ../../../../
     .content {
       position: relative;
     }
-    </style>
 
 </blockquote>
 
@@ -63,7 +61,7 @@ base: ../../../../
 
 <blockquote>
 
-    <div class="site-wrapper content">
+    &lt;div class="site-wrapper content"&gt;
 
 </blockquote>
 
