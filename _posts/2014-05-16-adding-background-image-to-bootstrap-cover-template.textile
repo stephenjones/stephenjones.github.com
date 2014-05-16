@@ -44,16 +44,16 @@ base: ../../../../
 
 <blockquote>
 
-    .leftie {
-      text-align: left;
-    }
-    .show {
-      text-decoration: underline;
-      display: inline !important;
-    }
-    .content {
-      position: relative;
-    }
+.leftie {
+  text-align: left;
+}
+.show {
+  text-decoration: underline;
+  display: inline !important;
+}
+.content {
+  position: relative;
+}
 
 </blockquote>
 
