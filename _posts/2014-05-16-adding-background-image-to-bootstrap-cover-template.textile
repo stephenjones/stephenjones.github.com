@@ -6,7 +6,7 @@ base: ../../../../
 
 <h1>How I added a background image (img) to my website's Bootstrap 'Cover' page</h1>
 
-<p>I wanted to setup a basic landing page for my <a href="http://www.networkbillingtraining.com/">Network Billing Training Course</a> using <a href="http://getbootstrap.com/examples/cover/">Bootstrap's 'Cover' Template</>. The template was straightforward, except for how to add a background image. The comment text says '...and add your own fullscreen background photo to make it your own' but doesn't suggest how.</p>
+<p>I wanted to setup a basic landing page for my <a href="http://www.networkbillingtraining.com/">Network Billing Training Course</a> using <a href="http://getbootstrap.com/examples/cover/">Bootstrap's 'Cover' Template</a>. The template was straightforward, except for how to add a background image. The comment text says '...and add your own fullscreen background photo to make it your own' but doesn't suggest how.</p>
 
 <p>The key hints that I used were found at <a href="http://css-tricks.com/perfect-full-page-background-image/">CSS Tricks</a> where I used the 'Option 2' suggestions. Using the suggested html format, my specific css entries are: </p>
 
