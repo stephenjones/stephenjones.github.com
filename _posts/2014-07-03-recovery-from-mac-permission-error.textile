@@ -1,0 +1,30 @@
+---
+layout: post
+title:  How I Recovered From Changing Permissions on /var directory (on Mac OS X)
+base: ../../../../
+---
+
+<h1>How I Recovered From Changing Permissions on /var directory (on Mac OS X)</h1>
+
+<p><b>Environment:</b>Mac OS - 10.9.3 (Mavericks)</p> 
+<p><b>Situation:</b>I made a (big) error and changed the read permissions on the /var directory... (Don't do this at home!) There are many useful programs under the /var directory, especially in /var/bin - using 'sudo' is how I got into this predicament, and now I had lost read access to the program to get myself out... (as it is located in /var/bin)</p>
+
+<p>My command line was quite disabled with many of the utilities I might use now out of reach. Fortunately I had another computer and could search for solutions.</p>
+
+<p><b>Resolution:</b>Two steps were required to get myself out of the problem I was in.</p>
+
+<p>The first step was, after trying a number of other false starts, I rebooted my laptop and held down <i>Command-R</i> as my laptop rebooted. This placed me into a recovery mode using a separate boot partition (available at least under the Mavericks Mac OS version).</p> 
+
+<p><i>Aside:</i> I found that I had to physically 'click' my touchpad to make selections. Use of 'touches' to represent mouse clicks did not appear to be active.</p>
+
+<p><b>Ref:</b> <a href="http://computers.tutsplus.com/tutorials/os-x-system-recovery-explored-and-explained--mac-60375">Mac OS X Recovery</a></p>
+
+<p>The second step was to use the now available command line terminal with 'root' access to reverse the permission change I had made on the /var directory. The key to accessing the terminal is covered under: "You will boot into the Repair Utilities screen. On top, in the Menu Bar click the Utilities item then select Terminal."</p>
+
+<p>Using the 'df' command you will see that the partition you have started is different to the regular partition. Reverse the permission change (on /var in my case), and then reboot your PC.</p>
+
+<p><b>Ref:</b> <a href="http://osxdaily.com/2011/11/15/repair-user-permissions-in-mac-os-x-lion/">Accessing the recovery command line with root permissions.</a></p>
+
+<p><b>Reminder:</b> Backup Often!!</p>
+
+<p>Hope this helps someone trying to solve the same problem. - Stephen</p>
