@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  How I Recovered From Changing Permissions on /var directory (on Mac OS X)
+title:  How I Recovered From Changing Permissions on '/var' directory (on Mac OS X)
 base: ../../../../
 ---
 
-<h1>How I Recovered From Changing Permissions on /var directory (on Mac OS X)</h1>
+<h1>How I Recovered From Changing Permissions on '/var' directory (on Mac OS X)</h1>
 
-<p><b>Environment:</b>Mac OS - 10.9.3 (Mavericks)</p> 
-<p><b>Situation:</b>I made a (big) error and changed the read permissions on the /var directory... (Don't do this at home!) There are many useful programs under the /var directory, especially in /var/bin - using 'sudo' is how I got into this predicament, and now I had lost read access to the program to get myself out... (as it is located in /var/bin)</p>
+<p><b>Environment:</b> Mac OS - 10.9.3 (Mavericks)</p> 
+
+<p><b>Situation:</b>i I made a (big) error and changed the read permissions on the /var directory... (Don't do this at home!) There are many useful programs under the /var directory, especially in /var/bin - using 'sudo' is how I got into this predicament, and now I had lost read access to the program to get myself out... (as it is located in /var/bin)</p>
 
 <p>My command line was quite disabled with many of the utilities I might use now out of reach. Fortunately I had another computer and could search for solutions.</p>
 
-<p><b>Resolution:</b>Two steps were required to get myself out of the problem I was in.</p>
+<p><b>Resolution:</b> Two steps were required to get myself out of the problem I was in.</p>
 
 <p>The first step was, after trying a number of other false starts, I rebooted my laptop and held down <i>Command-R</i> as my laptop rebooted. This placed me into a recovery mode using a separate boot partition (available at least under the Mavericks Mac OS version).</p> 
 
